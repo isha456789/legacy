@@ -39,20 +39,20 @@
   font-size: $font60;
 }
 
-.Leading24 {
-  letter-spacing: $leading24;
+.leading24 {
+  line-height: $leading24;
 }
-.Leading20 {
-  letter-spacing: $leading20;
+.leading20 {
+  line-height: $leading20;
 }
-.Leading28 {
-  letter-spacing: $leading28;
+.leading28 {
+  line-height: $leading28;
 }
-.Leading48 {
-  letter-spacing: $leading48;
+.leading48 {
+  line-height: $leading48;
 }
-.Leading58 {
-  letter-spacing: $leading58;
+.leading58 {
+  line-height: $leading58;
 }
 
 
@@ -69,6 +69,10 @@
 .opacity20{
   opacity: $opacity20;
 }
+.radius50{
+  border-radius: $radius50;
+}
+
 .radius5{
   border-radius: $radius5;
 }
@@ -78,61 +82,65 @@
 .radius23{
   border-radius: $radius23;
 }
-.res-radius10{
-  border-radius: $res-radius10;
-}
 
-.res-font12 {
-  font-size: $font12;
-}
-.res-font14 {
-  font-size: $font14;
-}
-.res-font16 {
-  font-size: $font16;
-}
-.res-font18 {
-  font-size: $font18;
-}
-.res-font20 {
-  font-size: $font20;
-}
-.res-font25 {
-  font-size: $font25;
-}
-.res-font70 {
-  font-size: $font70;
-}
-.res-font40 {
-  font-size: $font40;
-}
-.res-font22 {
-  font-size: $res-font22;
-}
-.res-font50 {
-  font-size: $res-font50;
-}
-.res-font30 {
-  font-size: $res-font30;
-}
+@include media-breakpoint-down(lg){
 
-
-
-.res-leading42{
+  .res-radius10{
+    border-radius: $res-radius10;
+  }
+  
+  .res-font12 {
+    font-size: $font12;
+  }
+  .res-font14 {
+    font-size: $font14;
+  }
+  .res-font16 {
+    font-size: $font16;
+  }
+  .res-font18 {
+    font-size: $font18;
+  }
+  .res-font20 {
+    font-size: $font20;
+  }
+  .res-font25 {
+    font-size: $font25;
+  }
+  .res-font70 {
+    font-size: $font70;
+  }
+  .res-font40 {
+    font-size: $font40;
+  }
+  .res-font22 {
+    font-size: $res-font22;
+  }
+  .res-font50 {
+    font-size: $res-font50;
+  }
+  .res-font30 {
+    font-size: $res-font30;
+  }
+  
+  
+  
+  .res-leading42{
     line-height:  $res-leading42;
-}
-.res-leading50{
+  }
+  .res-leading50{
     line-height:  $res-leading50;
-}
-.res-leading38{
+  }
+  .res-leading38{
     line-height:  $res-leading38;
-}
-.res-leading26{
+  }
+  .res-leading26{
     line-height:  $res-leading26;
-}
-.res-leading22{
+  }
+  .res-leading22{
     line-height:  $res-leading22;
-}
-.res-leading26{
+  }
+  .res-leading26{
     line-height:  $res-leading26;
+  }
 }

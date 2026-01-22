@@ -1,61 +1,71 @@
-.banner-section{
-    .banner-image{
-        height: 630px;
-        
-       
-         @include media-breakpoint-down(lg){
-           height: 823px;
-           width: 100%;
-        }
+.banner-section {
+  .banner-image {
+    height: 630px;
+
+    @include media-breakpoint-down(lg) {
+      height: 823px;
+      width: 100%;
     }
-    .banner-content {
+  }
+  .banner-content {
     top: 0;
     left: 0;
 
-.dashboard-img {
-    position: absolute;       
-    right: -105px;     
-    height: 390px;
-    width: 640px;
-   
-    
+    .dashboard-img {
+      position: absolute;
+      right: -105px;
+      height: 390px;
+      width: 640px;
 
-    @include media-breakpoint-down(lg){ 
-            right: -130px;        
-            height: 250px;
-            width: 460px;              
-            
-        }
-
-}
+      @include media-breakpoint-down(lg) {
+        right: -130px;
+        height: 250px;
+        width: 460px;
+      }
     }
-} 
+  }
+}
+
 
 .how-it-works {
-  background: #fff;
-    // .outer{
-       
-    // }
+  .outer {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .step-box {
+  .step-number {
+    width: 54px;
+    height: 54px;
+    border: 1px solid rgba($color-224598, 0.2);
+    border-radius: 50%;
+    margin: 0 auto 15px;
 
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: -360px;
+      transform: translateY(-50%);
+      width: 340px;
+      height: 20px;
+      background: url("../images/Arrow1.png") no-repeat center;
+      background-size: contain;
+
+
+       @include media-breakpoint-down(lg) {
+               top: auto;
+              bottom: -45px;
+              right: 50%;
+              transform: translateX(50%) rotate(90deg);
+              width: 20px;
+              height: 40px;
+
+      }
+    }
+  }
+}
+.col-lg-4:last-child .step-number::after {
+  display: none;
 }
 
-// .step-number {
-//   width: 50px;
-//   height: 50px;
-//   border: 1px solid #cce0ff;
-//   border-radius: 50%;
-//   margin: 0 auto;
-//   line-height: 50px;
-//   font-weight: bold;
-//   color: #1a3e72;
-// }
 
-// .step-title {
-//   font-weight: 600;
-//   color: #1a3e72;
-// }
-
-// .step-desc {
-//   font-size: 14px;
-//   color: #6c757d;
-// }
+}

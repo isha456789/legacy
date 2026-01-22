@@ -17570,24 +17570,24 @@ textarea {
   font-size: 60px;
 }
 
-.Leading24 {
-  letter-spacing: 24px;
+.leading24 {
+  line-height: 24px;
 }
 
-.Leading20 {
-  letter-spacing: 20px;
+.leading20 {
+  line-height: 20px;
 }
 
-.Leading28 {
-  letter-spacing: 28px;
+.leading28 {
+  line-height: 28px;
 }
 
-.Leading48 {
-  letter-spacing: 48px;
+.leading48 {
+  line-height: 48px;
 }
 
-.Leading58 {
-  letter-spacing: 58px;
+.leading58 {
+  line-height: 58px;
 }
 
 .space-0_32 {
@@ -17606,6 +17606,10 @@ textarea {
   opacity: 20%;
 }
 
+.radius50 {
+  border-radius: 50px;
+}
+
 .radius5 {
   border-radius: 5px;
 }
@@ -17618,78 +17622,62 @@ textarea {
   border-radius: 23px;
 }
 
-.res-radius10 {
-  border-radius: 10px;
+@media (max-width: 991.98px) {
+  .res-radius10 {
+    border-radius: 10px;
+  }
+  .res-font12 {
+    font-size: 12px;
+  }
+  .res-font14 {
+    font-size: 14px;
+  }
+  .res-font16 {
+    font-size: 16px;
+  }
+  .res-font18 {
+    font-size: 18px;
+  }
+  .res-font20 {
+    font-size: 20px;
+  }
+  .res-font25 {
+    font-size: 25px;
+  }
+  .res-font70 {
+    font-size: 70px;
+  }
+  .res-font40 {
+    font-size: 40px;
+  }
+  .res-font22 {
+    font-size: 22px;
+  }
+  .res-font50 {
+    font-size: 50px;
+  }
+  .res-font30 {
+    font-size: 30px;
+  }
+  .res-leading42 {
+    line-height: 42px;
+  }
+  .res-leading50 {
+    line-height: 50px;
+  }
+  .res-leading38 {
+    line-height: 38px;
+  }
+  .res-leading26 {
+    line-height: 26px;
+  }
+  .res-leading22 {
+    line-height: 22px;
+  }
+  .res-leading26 {
+    line-height: 26px;
+  }
 }
-
-.res-font12 {
-  font-size: 12px;
-}
-
-.res-font14 {
-  font-size: 14px;
-}
-
-.res-font16 {
-  font-size: 16px;
-}
-
-.res-font18 {
-  font-size: 18px;
-}
-
-.res-font20 {
-  font-size: 20px;
-}
-
-.res-font25 {
-  font-size: 25px;
-}
-
-.res-font70 {
-  font-size: 70px;
-}
-
-.res-font40 {
-  font-size: 40px;
-}
-
-.res-font22 {
-  font-size: 22px;
-}
-
-.res-font50 {
-  font-size: 50px;
-}
-
-.res-font30 {
-  font-size: 30px;
-}
-
-.res-leading42 {
-  line-height: 42px;
-}
-
-.res-leading50 {
-  line-height: 50px;
-}
-
-.res-leading38 {
-  line-height: 38px;
-}
-
-.res-leading26 {
-  line-height: 26px;
-}
-
-.res-leading22 {
-  line-height: 22px;
-}
-
-.res-leading26 {
-  line-height: 26px;
-}
-
 button,
 [type=button],
 [type=reset],
@@ -17786,8 +17774,39 @@ button,
   }
 }
 
-.how-it-works {
-  background: #fff;
+.how-it-works .outer {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.how-it-works .step-box .step-number {
+  width: 54px;
+  height: 54px;
+  border: 1px solid rgba(34, 69, 152, 0.2);
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+.how-it-works .step-box .step-number::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -360px;
+  transform: translateY(-50%);
+  width: 340px;
+  height: 20px;
+  background: url("../images/Arrow1.png") no-repeat center;
+  background-size: contain;
+}
+@media (max-width: 991.98px) {
+  .how-it-works .step-box .step-number::after {
+    top: auto;
+    bottom: -45px;
+    right: 50%;
+    transform: translateX(50%) rotate(90deg);
+    width: 20px;
+    height: 40px;
+  }
+}
+.how-it-works .col-lg-4:last-child .step-number::after {
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */

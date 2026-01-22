@@ -17429,8 +17429,8 @@ textarea {
 }
 @media (max-width: 991.98px) {
   .container {
-    padding-left: 22px;
-    padding-right: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -17530,6 +17530,10 @@ textarea {
   color: #224598;
 }
 
+.border-224598 {
+  border-color: #224598;
+}
+
 .font12 {
   font-size: 12px;
 }
@@ -17560,6 +17564,10 @@ textarea {
 
 .font40 {
   font-size: 40px;
+}
+
+.font60 {
+  font-size: 60px;
 }
 
 .Leading24 {
@@ -17594,12 +17602,24 @@ textarea {
   opacity: 6%;
 }
 
+.opacity20 {
+  opacity: 20%;
+}
+
 .radius5 {
   border-radius: 5px;
 }
 
 .radius20 {
   border-radius: 20px;
+}
+
+.radius23 {
+  border-radius: 23px;
+}
+
+.res-radius10 {
+  border-radius: 10px;
 }
 
 .res-font12 {
@@ -17680,9 +17700,9 @@ button,
 }
 
 .btnA {
-  height: 60px;
-  padding-left: 28px;
-  padding-right: 28px;
+  height: 48px;
+  padding-left: 42px;
+  padding-right: 42px;
   transition: all 0.3s ease-in-out;
 }
 .btnA.bg-224598-btn {
@@ -17693,10 +17713,23 @@ button,
   background-color: #fff;
   color: #224598;
 }
+.btnA.bg-ffffff-btn {
+  background-color: #fff;
+  color: #224598;
+}
+.btnA.bg-ffffff-btn:hover {
+  background-color: #224598;
+  color: #fff;
+}
 
 .contact-form .contact-box {
-  padding: 62px 60px 56px 46px;
+  padding: 62px 60px 60px 73px;
   background-color: rgba(88, 88, 88, 0.6);
+}
+@media (max-width: 991.98px) {
+  .contact-form .contact-box {
+    padding: 42px 24px 45px 24px;
+  }
 }
 .contact-form .input {
   height: 56px;
@@ -17707,7 +17740,7 @@ button,
   color: #000 !important;
 }
 .contact-form .textarea {
-  padding: 0px 35px;
+  padding: 15px 35px;
   background-color: #fff;
 }
 .contact-form .textarea::placeholder {
@@ -17720,6 +17753,41 @@ button,
 }
 .card-hover:hover .img {
   transform: scale(1.1);
+}
+
+.footer .border {
+  border-top: rgba(0, 0, 0, 0.2);
+}
+
+.banner-section .banner-image {
+  height: 630px;
+}
+@media (max-width: 991.98px) {
+  .banner-section .banner-image {
+    height: 823px;
+    width: 100%;
+  }
+}
+.banner-section .banner-content {
+  top: 0;
+  left: 0;
+}
+.banner-section .banner-content .dashboard-img {
+  position: absolute;
+  right: -105px;
+  height: 390px;
+  width: 640px;
+}
+@media (max-width: 991.98px) {
+  .banner-section .banner-content .dashboard-img {
+    right: -130px;
+    height: 250px;
+    width: 460px;
+  }
+}
+
+.how-it-works {
+  background: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */

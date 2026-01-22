@@ -1,0 +1,61 @@
+.banner-section{
+    .banner-image{
+        height: 630px;
+        
+       
+         @include media-breakpoint-down(lg){
+           height: 823px;
+           width: 100%;
+        }
+    }
+    .banner-content {
+    top: 0;
+    left: 0;
+
+.dashboard-img {
+    position: absolute;       
+    right: -105px;     
+    height: 390px;
+    width: 640px;
+   
+    
+
+    @include media-breakpoint-down(lg){ 
+            right: -130px;        
+            height: 250px;
+            width: 460px;              
+            
+        }
+
+}
+    }
+} 
+
+.how-it-works {
+  background: #fff;
+    // .outer{
+       
+    // }
+
+}
+
+// .step-number {
+//   width: 50px;
+//   height: 50px;
+//   border: 1px solid #cce0ff;
+//   border-radius: 50%;
+//   margin: 0 auto;
+//   line-height: 50px;
+//   font-weight: bold;
+//   color: #1a3e72;
+// }
+
+// .step-title {
+//   font-weight: 600;
+//   color: #1a3e72;
+// }
+
+// .step-desc {
+//   font-size: 14px;
+//   color: #6c757d;
+// }

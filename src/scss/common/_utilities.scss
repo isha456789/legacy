@@ -7,6 +7,9 @@
 .text-224598 {
   color: $color-224598;
 }
+.border-224598{
+  border-color: $color-224598;
+}
 
 .font12 {
   font-size: $font12;
@@ -32,6 +35,9 @@
 .font40 {
   font-size: $font40;
 }
+.font60{
+  font-size: $font60;
+}
 
 .Leading24 {
   letter-spacing: $leading24;
@@ -49,6 +55,7 @@
   letter-spacing: $leading58;
 }
 
+
 .space-0_32 {
   letter-spacing: $space-0_32;
 }
@@ -59,13 +66,21 @@
 .opacity6{
   opacity: $opacity6;
 } 
+.opacity20{
+  opacity: $opacity20;
+}
 .radius5{
   border-radius: $radius5;
 }
 .radius20{
   border-radius: $radius20;
 }
-
+.radius23{
+  border-radius: $radius23;
+}
+.res-radius10{
+  border-radius: $res-radius10;
+}
 
 .res-font12 {
   font-size: $font12;

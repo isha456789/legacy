@@ -1,9 +1,14 @@
 .contact-form{
     .contact-box{
-        padding: 62px 60px 56px 46px;
+        padding: 62px 60px 60px 73px;
         background-color: rgba($color-585858, $alpha: 0.6);
+
+         @include media-breakpoint-down(lg){
+           padding: 42px 24px 45px 24px;
+        }
+
     }
-    
+
      .input{
         height: 56px;
         padding: 0px 35px;
@@ -16,7 +21,7 @@
       }
 
     .textarea{
-        padding: 0px 35px;
+        padding: 15px 35px;
         background-color: $white;
 
          &::placeholder{

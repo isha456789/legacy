@@ -1,0 +1,28 @@
+.contact-form{
+    .contact-box{
+        padding: 62px 60px 56px 46px;
+        background-color: rgba($color-585858, $alpha: 0.6);
+    }
+    
+     .input{
+        height: 56px;
+        padding: 0px 35px;
+        background-color: $white;
+
+        &::placeholder{
+            color: $black !important;
+        }
+
+      }
+
+    .textarea{
+        padding: 0px 35px;
+        background-color: $white;
+
+         &::placeholder{
+            color: $black !important;
+        }
+   }
+}
+
+      

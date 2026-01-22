@@ -1,0 +1,26 @@
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+}
+
+
+.btnA {
+    height: 60px;
+    padding-left: 28px;
+    padding-right: 28px;
+    transition: all 0.3s ease-in-out;
+
+    &.bg-224598-btn {
+        background-color: $color-224598;
+        color: $white;
+
+        &:hover {
+            background-color: $white;
+            color: $color-224598;
+        }
+    }
+}
